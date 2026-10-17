@@ -1,0 +1,9 @@
+twig:
+    file_name_pattern: '*.twig'
+    globals:
+        app_name: 'Formation Symfony'
+        app_version: '1.0'
+
+when@test:
+    twig:
+        strict_variables: true
